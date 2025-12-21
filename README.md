@@ -12,9 +12,9 @@ The objective of this Business Intelligence solution is to provide hospital mana
  
 ## Repository Structure
 ├── data_raw/            # Raw generated dataset  
-├── data_clean/          # Clean dataset after ETL  
+├── data_cleaned/          # Clean dataset after ETL  
 ├── etl/                 # Data preparation and cleaning notebook  
-├── docs/                # Project documentation and data dictionary  
+├── report/                # Project documentation and data dictionary  
 ├── README.md            # Project overview  
 
 ## Current Status
