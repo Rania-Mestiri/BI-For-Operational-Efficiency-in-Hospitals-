@@ -14,12 +14,14 @@ The objective of this Business Intelligence solution is to provide hospital mana
 ├── data_raw/            # Raw generated dataset  
 ├── data_cleaned/          # Clean dataset after ETL  
 ├── etl/                 # Data preparation and cleaning notebook  
-├── report/                # Project documentation and data dictionary  
+├── report/                # Project documentation and data dictionary 
+├── model/               # Star schema of tables and SQL file
+├── dashboard/            # Dashboard development in Power BI 
 ├── README.md            # Project overview  
 
 ## Current Status
 - Business Understanding ✔
 - Data Preparation & ETL ✔
-- Data Modeling ⏳
-- Dashboard Development  ⏳
+- Data Modeling ✔
+- Dashboard Development  ✔
 -  Insights & Storytelling ⏳
