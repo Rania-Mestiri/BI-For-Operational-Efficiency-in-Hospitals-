@@ -6,24 +6,20 @@ The raw dataset was synthetically generated using Python to simulate real hospit
 
 ## ETL Steps Performed
 ### 1. Data Loading
-The raw CSV file was loaded into a Python (pandas) environment using Google Colab.
+The raw CSV file was loaded into a Python environment using VS Code.
 ### 2. Data Quality Assessment
 - Checked for missing values
 - Identified duplicates
-- Reviewed data distributions and ranges
 ### 3. Data Cleaning
 - Removed duplicate records
-- Handled missing values using median (numeric) and default labels (categorical)
-- Standardized column names
+- Handled missing values 
 ### 4. Data Transformation
 - Converted date and time columns to datetime format
 - Created derived fields:
   - Waiting time (minutes)
   - Consultation duration (minutes)
   - Doctor utilization rate
-### 5. Outlier Treatment
-- Removed unrealistic waiting times
-- Ensured doctor utilization does not exceed 100%
-
-## Output
-The final output of this step is a clean dataset ready for BI analysis and Power BI visualization.
+  - 
+## Files
+- `Etl_clean.ipynb` → Data cleaning notebook
+- `DataDictionary.png` → Description of all fields
